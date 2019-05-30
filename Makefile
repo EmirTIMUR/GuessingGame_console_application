@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -g -Wall -std=c++11
 LIBS = -lm
 
-PROGRAM = game
+PROGRAM = GuessingGame
 HEADERS = $(wildcard *.h)
 SOURCES = $(wildcard *.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
