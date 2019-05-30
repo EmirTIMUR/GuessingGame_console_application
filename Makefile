@@ -8,7 +8,9 @@ HEADERS = $(wildcard *.h)
 SOURCES = $(wildcard *.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
 
-.PHONY: all clean
+.PHONY: all clean install
+
+install: all
 
 all: $(PROGRAM)
 
