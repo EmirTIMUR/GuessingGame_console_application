@@ -13,6 +13,9 @@ Kurulum için aşağıdaki komutları terminale girin:
 git clone https://github.com/EmirTIMUR/GuessingGame_console_application.git
 cd GuessingGame_console_application
 make install
+```
+Programı çalıştırmak için aşağıdaki komutu terminale girin:
+```bash
 ./GuessingGame
 ```
 
